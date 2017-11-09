@@ -7,12 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PostsComponent implements OnInit {
     articles = [
-        {titre:"jazz"},
-        {titre:"saoul"},
-        {titre:"funk"},
-        {titre:"bluse"},
-        {titre:"pop"},
-        {titre:"rock"},
+        {titre:"jazz", date:"01 Janvier 2018"},
+        {titre:"saoul", date:"11 Janvier 2018"},
+        {titre:"funk",date:"09 Decembre 2017"},
+        {titre:"bluse",date:"13 Novembre 2017"},
+        {titre:"pop",date:"31 Décembre 2017"},
+        {titre:"rock",date:"08 Novembre 2017"},
     ]
 
   constructor() { }
